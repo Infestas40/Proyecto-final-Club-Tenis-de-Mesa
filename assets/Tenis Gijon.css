@@ -4,6 +4,7 @@ h1{
     position: relative;
     right: 250px;
     font-family: Roboto;
+    font-size: 42px;
  }
  
  img{
@@ -38,6 +39,10 @@ ul{
 
 .nav > li{
        float: left;
+}
+
+.nav li a:hover{
+    background-color: red;
 }
 
 .nav li ul{
