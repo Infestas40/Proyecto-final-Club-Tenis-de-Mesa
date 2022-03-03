@@ -1,0 +1,194 @@
+
+.destacados{
+           background-color: #285DE8; 
+           color: white;
+           width: 100%;
+           text-decoration: none;
+           padding: 20px 70px;
+           display: block;
+           position: relative;
+           top: 0px;
+}
+
+.caja{
+     background: #DFE15E; 
+     color: black;
+     display: inline-block;
+     text-align: center;
+     width: 200px;
+     height: -300px;
+     border-radius: 20px;
+     text-decoration: none;
+     position: relative;
+     top: 30px;
+     left: 150px;
+     padding: 10px;
+}
+
+.caja1{
+      background: #DFE15E; 
+      color: black;
+      display: inline-block;
+      text-align: center;
+      width: 200px;
+      height: -300px;
+      border-radius: 20px;
+      text-decoration: none;
+      position: relative;
+      top: 100px;
+      left: -70px;
+      padding: 10px;
+}
+
+.caja2{
+      background: #DFE15E; 
+      color: black;
+      display: inline-block;
+      text-align: center;
+      width: 200px;
+      height: -300px;
+      border-radius: 20px;
+      text-decoration: none;
+      position: relative;
+      top: 30px;
+      left: -80px;
+      padding: 10px;
+}
+
+.caja3{
+      background: #DFE15E; 
+      color: black;
+      display: inline-block;
+      text-align: center;
+      width: 200px;
+      height: -300px;
+      border-radius: 20px;
+      text-decoration: none;
+      position: relative;
+      top: 100px;
+      left: -299px;
+      padding: 10px;
+  }
+
+.caja4{
+      background: #DFE15E; 
+      color: black;
+      display: inline-block;
+      text-align: center;
+      width: 200px;
+      height: -300px;
+      border-radius: 20px;
+      text-decoration: none;
+      position: relative;
+      top: 30px;
+      left: -310px;
+      padding: 10px;
+}
+
+.caja5{
+      background: #DFE15E; 
+      color: black;
+      display: inline-block;
+      text-align: center;
+      width: 200px;
+      height: -300px;
+      border-radius: 20px;
+      text-decoration: none;
+      position: relative;
+      top: 100px;
+      left: -530px;
+      padding: 10px;
+  }
+
+.caja6{
+      background: #DFE15E; 
+      color: black;
+      display: inline-block;
+      text-align: center;
+      width: 600px;
+      height: -100px;
+      border-radius: 20px;
+      text-decoration: none;
+      position: relative;
+      top: 10px;
+      left: 900px;
+      padding: 50px;
+}
+
+.actualidad{
+           background-color: #285DE8; 
+           color: white;
+           width: 100%;
+           text-decoration: none;
+           padding: 20px 70px;
+           display: block;
+           position: relative;
+           top: 50px;
+}
+
+.container{
+          width: 100%;  
+          max-width: 1200px;
+          height: 430px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin: auto;
+          position: relative;
+          top: 100px;
+          left: -50px; 
+}
+
+.container .card{
+                width: 330px;  
+                height: 700px;
+                border-radius: 8px;
+                box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                overflow: hidden;
+                margin: 20px;
+                text-align: center;
+                transition: all 0.25s;
+
+}
+
+.container .card:hover{
+                      transform: translateY(-15px);
+                      box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);;  
+}
+
+.container .card img{
+                    width: 300px;
+                    height: 300px; 
+}
+
+.container .card h4{
+                   font-family: Arial, Helvetica, sans-serif;  
+}
+
+.container .card p{
+                  font-family: Arial, Helvetica, sans-serif;  
+}
+
+#parrafo{
+        position: relative;
+        left: -33px;
+}
+
+#parrafo1{
+        position: relative;
+        left: -20px;
+}
+
+#parrafo2{
+        position: relative;
+        left: -20px;
+}
+
+#parrafo3{
+        position: relative;
+        left: -125px;
+}
+
+@media (max-width: 800px){
+
+}

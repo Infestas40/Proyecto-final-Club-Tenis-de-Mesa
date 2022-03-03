@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="../css/footer.css">
+    <link rel="stylesheet"  href="../css/main.css">
     <link rel="stylesheet"  href="../css/index.css">
     <title>Tenis Gijon</title>
 </head>
@@ -18,10 +20,34 @@
         </div>
         <div id="header_nav">
         <ul class="nav">
-        <li><a href="">LIGAS</a></li>
-        <li><a href="">JUGADORES</a></li>
-        <li><a href="">TORNEOS</a></li>
-        <li><a href="">MEDIA</a></li>
+        <li><a href="">LIGAS</a>
+            <ul id="desplegable">
+                <li><a href="#">Primera División</li></a>
+                <li><a href="#">Segunda División</li></a>
+                <li><a href="#">Liga Territorial Asturiana</li></a>
+            </ul>
+        </li>
+        <li><a href="">JUGADORES</a>
+            <ul id="desplegablejugadores">
+                <li><a href="#">Primera División</li></a>
+                <li><a href="#">Segunda División</li></a>
+                <li><a href="#">Infantiles</li></a>
+                <li><a href="#">Alevines</li></a>
+                <li><a href="#">Discapacidad</li></a>
+        </ul>
+        </li>
+        <li><a href="">COMPETICIÓN</a>
+            <ul id="desplegablecompetición">
+                <li><a href="#">Estatal Santander</li></a>
+                <li><a href="#">Cuarto Piramidal</li></a>
+                <li><a href="#">Campeonato De España</li></a>
+        </ul>        
+        </li>
+        <li><a href="">MEDIA</a>
+            <ul id="desplegablemedia">
+                <li><a href="#">Videos</li></a>                
+        </ul>       
+        </li>
         <li><a href="">CONTACTO</a></li>
         </ul>
         </div>
@@ -29,20 +55,35 @@
 
     <div class="slider">
         <ul>
-            <li><img src="assets/Tenis1.jpg"></li>
-            <li><img src="assets/Tenis2.jpg"></li>
+            <li><img src="assets/Tenis1.jpg"></li>               
+            <li><img src="assets/Tenis2.jpg"></li>       
             <li><img src="assets/Tenis3.jpg"></li>
             <li><img src="assets/Tenis4.jpg"></li>
         </ul>
     </div>
-<!-- 
+
     <main>
         <div class="destacados">DESTACADOS
         </div>
-        <a href="#" class="button">Circulares</a>
-        <a href="#" class="button1">Circulares</a>
-        <a href="#" class="button2">Circulares</a>
-        <div class="button3">Marcador Extra</div>
+        <a href="#" class="caja">Circulares
+            <p>Nº 64 Statal Santander</p>
+        </a>
+        <a href="#" class="caja1">Circulares
+            <p>Nº 1 III Piramidal Asturias</p>
+        </a>
+        <a href="#" class="caja2">Circulares
+            <p>Nº 103 Zonal Valladolid</p>
+        </a>
+        <a href="#" class="caja3">Circulares
+            <p>Nº 2 IV Piramidal Asturias</p>
+        </a>
+        <a href="#" class="caja4">Circulares
+            <p>Nº 156 Nacional España</p>
+        </a>
+        <a href="#" class="caja5">Circulares
+            <p>Nº 202 Open Slovenia</p>
+        </a>
+        <div class="caja6">Marcador</div>
 
             <div class="actualidad">ACTUALIDAD</div> 
             
@@ -51,9 +92,10 @@
                 <img src="assets/Noticia 1.jpg">
                 <h4>La Atalaya Gijón Tenis de Mesa</h4>
                 <p>26 de Febrero</p>
-                <p>Muchas gracias a Ángel Cabranes</p>
-                <p>y a La Nueva España Digital - LNE.es</p>
-                <p>por el fantástico reportaje que nos han brindado.</p>
+                <p id="parrafo">Muchas gracias a Ángel Cabranes</p>
+                <p id="parrafo1">y a La Nueva España Digital - LNE.es</p>
+                <p id="parrafo2">por el fantástico reportaje que nos han</p>
+                <p id="parrafo3">brindado.</p>
             </div>
 
                 <div class="card">
@@ -97,16 +139,19 @@
                     <p>Pedro Infante dieciseisavos</p>
                     <p>También participaron: Ángel, Costales, Cristian, Nel, Pedro Manuel, Quique y Vicente.</p>
             </div>
-                
-            </div>
+        </div>     
+    </main>
 
-            
-        
-    </main> -->
-       
-
-
-
+    <div class="footer"><h1>@Copyright Gijón Tenis de Mesa</h1>
     
+        <img src="assets/Facebook.png">
+
+        <img src="assets/Instagram.png">
+
+        <img src="assets/Mapa.jpeg">
+    
+    </div>
+       
+   
 </body>
 </html>
