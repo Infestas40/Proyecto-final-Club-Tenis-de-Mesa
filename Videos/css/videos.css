@@ -1,5 +1,101 @@
-h1{
-    position: relative;
-    left: 700px;
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{ 
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: red;
+      font-size: 1.2em;
+      font-family: Roboto;
+      margin: 10px;
+      
+}
+ 
+ img{
+    width: 120px;
+ }
+
+#header_nav{
+           width: 100%; 
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+.nav > li{
+         width: 33%;
+         background-color:  #285DE8;
+         text-align: center;
+         padding: 10px;
+}
+
+.nav li a{
+         color: black;
+         text-decoration: none;
+         font-size: 20px;
+         font-family: Roboto;
+}
+
+
+
+.nav li a:hover{
+               color: white ;              
+    
+}
+
+.nav li ul{
+        display: none;  
+        position: absolute;
+        min-width: 140px;  
+}
+
+.nav li:hover > ul{
+                display: block;
+}
+
+#desplegable{
+    width: 200px;
+    background-color:  #5b87f7;
+    text-align: center;
+    padding: 10px; 
+    align-items: center;
+    border-radius: 10px;
+}
+
+#desplegablejugadores{
+              width: 200px;
+              background-color:  #5b87f7;
+              text-align: center;
+              padding: 10px; 
+              align-items: center;
+              border-radius: 10px;
+}
+
+#desplegablecompetición{
+               width: 250px;
+               background-color:  #5b87f7;
+               text-align: center;
+               padding: 10px; 
+               align-items: center;
+               border-radius: 10px;
+}
+
+#desplegablemedia{
+        width: 250px;
+        background-color:  #5b87f7;
+        text-align: center;
+        padding: 10px; 
+        align-items: center;
+        border-radius: 10px;
 }

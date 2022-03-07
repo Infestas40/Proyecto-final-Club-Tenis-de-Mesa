@@ -37,7 +37,7 @@ ul{
          width: 33%;
          background-color:  #285DE8;
          text-align: center;
-         padding: 10px; 
+         padding: 10px;
 }
 
 .nav li a{
@@ -50,7 +50,7 @@ ul{
 
 
 .nav li a:hover{
-               color: white ;
+               color: white ;              
     
 }
 
@@ -65,28 +65,28 @@ ul{
 }
 
 .slider{
-    width: 1800px;
-    height: 500px;
-    margin: auto;
-    overflow: hidden;
+      width: 1800px;
+      height: 500px;
+      margin: auto;
+      overflow: hidden;
 }
 
 .slider ul{
-       padding: 0; 
-       display: flex;
-       width: 1800px; 
-       animation: cambio 25s infinite;
-       animation-direction: alternate;
+         padding: 0; 
+         display: flex;
+         width: 1800px; 
+         animation: cambio 25s infinite;
+         animation-direction: alternate;
 }
 
 .slider li{
-       list-style: none;  
-       width: 50%;
+         list-style: none;  
+         width: 50%;
 }
 
 .slider img{
-        width: 600px;
-        height: 500px; 
+           width: 600px;
+           height: 500px; 
 }
 
 @keyframes cambio{
@@ -112,6 +112,7 @@ ul{
             text-align: center;
             padding: 10px; 
             align-items: center;
+            border-radius: 10px;
 }
 
 #desplegablejugadores{
@@ -120,6 +121,7 @@ ul{
                       text-align: center;
                       padding: 10px; 
                       align-items: center;
+                      border-radius: 10px;
 }
 
 #desplegablecompetición{
@@ -128,6 +130,7 @@ ul{
                        text-align: center;
                        padding: 10px; 
                        align-items: center;
+                       border-radius: 10px;
 }
 
 #desplegablemedia{
@@ -136,6 +139,7 @@ ul{
                 text-align: center;
                 padding: 10px; 
                 align-items: center;
+                border-radius: 10px;
 }
 
 
