@@ -114,7 +114,7 @@
           justify-content: center;
           margin-top: 100px;
           margin-left: 300px;
-        
+             
 }
 
 .container .card{
@@ -126,7 +126,8 @@
                 margin: 20px;
                 text-align: center;
                 transition: all 0.25s;
-
+                margin-left: -10px;
+ 
 }
 
 .container .card:hover{
