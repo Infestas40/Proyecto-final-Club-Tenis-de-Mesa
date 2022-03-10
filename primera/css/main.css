@@ -1,0 +1,29 @@
+.primera{
+        background-color: #285DE8; 
+        color: white;
+        width: 95%;
+        text-decoration: none;
+        padding: 10px 30px;
+        display: block;
+        margin-top: 50px;
+        margin-left: 42px;
+        font-size: 20px;
+}
+
+.equipos{
+        background-color: #285DE8; 
+        color: white;
+        width: 95%;
+        text-decoration: none;
+        padding: 10px 30px;
+        display: block;
+        margin-top: 42px;
+        margin-left: 42px;
+        font-size: 20px;
+}
+
+.puntos{
+       margin-left: 1310px;
+       margin-top: -25px;
+       font-size: 22px;
+}
