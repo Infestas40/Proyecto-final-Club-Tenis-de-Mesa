@@ -65,8 +65,7 @@ ul{
 }
 
 .slider{
-      width: 1800px;
-      height: 500px;
+      width: 100%;
       margin: auto;
       overflow: hidden;
 }
@@ -74,9 +73,7 @@ ul{
 .slider ul{
          padding: 0; 
          display: flex;
-         width: 1800px; 
-         animation: cambio 25s infinite;
-         animation-direction: alternate;
+         width: 100%; 
 }
 
 .slider li{
@@ -89,22 +86,7 @@ ul{
            height: 500px; 
 }
 
-@keyframes cambio{
-              0% { margin-left: 0; }
-              20% { margin-left: 0; }
-              
-              25% { margin-left: -100%; }
-              45% { margin-left: -100%; }
 
-              50% { margin-left: -200%; }
-              70% { margin-left: -200%; }
-
-              75% { margin-left: -300%; }
-              100% { margin-left: -300%; }
-
-              80% { margin-left: -400%; }
-              120% { margin-left: -400%; }
-}
 
 #desplegable{
             width: 200px;
