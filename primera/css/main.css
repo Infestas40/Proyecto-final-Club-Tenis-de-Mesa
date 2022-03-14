@@ -1,7 +1,7 @@
 .primera{
         background-color: #285DE8; 
         color: white;
-        width: 95%;
+        width: 93%;
         text-decoration: none;
         padding: 10px 30px;
         display: block;
@@ -13,7 +13,7 @@
 .equipos{
         background-color: #285DE8; 
         color: white;
-        width: 95%;
+        width: 93%;
         text-decoration: none;
         padding: 10px 30px;
         display: block;
@@ -27,3 +27,74 @@
        margin-top: -25px;
        font-size: 22px;
 }
+
+.cajarural{
+          color: black;
+          margin-top: 30px;
+          margin-left: 60px;
+          font-size: 18px;
+}
+
+.cajaruralpuntos{
+                color: black;
+                margin-top: -35px;
+                margin-left: 1400px;
+                font-size: 22px;
+}
+
+.jornadas{
+         background-color: #285DE8; 
+         color: white;
+         width: 93%;
+         text-decoration: none;
+         padding: 10px 30px;
+         display: block;
+         margin-top: 50px;
+         margin-left: 42px;
+         font-size: 20px;
+}
+
+.fecha{
+      color: black;
+      margin-top: 35px;
+      margin-left: 70px;
+      font-size: 20px;  
+}
+
+.oroso{
+      color: black;
+      margin-top: -25px;
+      margin-left: 250px;
+      font-size: 20px;  
+}
+
+.resultado{
+          background-color: #285DE8; 
+          color: white;
+          width: 12px;
+          text-decoration: none;
+          padding: 10px 30px;
+          display: block;
+          margin-top: -40px;
+          margin-left: 600px;
+          font-size: 20px;        
+}
+
+.resultado1{
+           background-color: #285DE8; 
+           color: white;
+           width: 12px;
+           text-decoration: none;
+           padding: 10px 30px;
+           display: block;
+           margin-top: -43px;
+           margin-left: 710px;
+          font-size: 20px;        
+}
+
+.helios{
+       color: black;
+       margin-top: -28px;
+       margin-left: 810px;
+       font-size: 20px;  
+  }
