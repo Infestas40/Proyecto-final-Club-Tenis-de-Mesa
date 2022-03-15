@@ -1,6 +1,7 @@
 header{ 
-     width: 100%;
+     width: 108%;
      font-family: Arial, Helvetica, sans-serif;
+     margin-left: -40px;
 }
 
 #title{
@@ -13,10 +14,6 @@ header{
       margin: 10px;
       
 }
- 
- img{
-    width: 120px;
- }
 
 #header_nav{
            width: 100%; 

@@ -1,6 +1,6 @@
 footer {
         background-color: #0D359E;
-        width: 100%;
+        width: 99%;
         height: 40px;
         color: #ffffff;
         padding: 5px;
@@ -20,7 +20,7 @@ footer img{
           display: inline-block;
           margin-left: 40px;  
           position: relative;
-          left: 1200px;
+          left: 1000px;
           top: -25px;
               
 }
