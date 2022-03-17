@@ -9,7 +9,7 @@
 }
 
 header{ 
-    width: 103%;
+    width: 102%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -83,7 +83,8 @@ ul{
 
 
 .slider img{
-          object-fit: cover;
+           object-fit: fill;
+           margin-left: 40px;
 }
 
 
