@@ -4,10 +4,19 @@
                  width: 40%;
                  height: 30px;
                  margin: auto;
+                 margin-top: 20px;
                  text-align: center;
                  border-radius: 10px;
                 
 }
+
+h4{
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;   
+}
+
 .container{
           width: 1200px;  
           max-width: 1200px;
@@ -15,6 +24,7 @@
           display: flex;
           margin: auto;
           flex-wrap: wrap;
+   
 }
 
 .container .card{
@@ -31,8 +41,8 @@
 }
 
 .container .card:hover{
-                     transform: translateY(-15px);
-                     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);;  
+                      transform: translateY(-15px);
+                      box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);;  
 }
 
 .container .card img{
@@ -42,26 +52,19 @@
 }
 
 .container .card h2{
-                   font-family: Roboto;
-                   text-decoration: none; 
-                   font-size: 18px; 
+                  font-family: Roboto;
+                  text-decoration: none; 
+                  font-size: 18px; 
 }
 
 .container .card h3{
-                    font-family: Roboto;
-                    text-decoration: none; 
-                    font-size: 24px; 
-                    margin-top: 25px;
-                    color: red;
+                  font-family: Roboto;
+                  text-decoration: none; 
+                  font-size: 24px; 
+                  margin-top: 25px;
+                  color: red;
 }
 
 h2{
   font-size: 20px; 
-}
-
-h4{
-  font-size: 18px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 30px;   
 }

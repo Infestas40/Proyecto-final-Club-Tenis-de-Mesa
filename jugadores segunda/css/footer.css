@@ -1,0 +1,26 @@
+footer {
+       background-color: #0D359E;
+       width: 99%;
+       height: 40px;
+       color: #ffffff;
+       padding: 5px;
+       margin-top: 1600px;
+
+}
+
+h2{
+  font-size: 16px;
+  font-family: Roboto;
+  margin-top: 13px;  
+}
+
+footer img{
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          margin-left: 40px;  
+          position: relative;
+          left: 1230px;
+          top: -35px;
+        
+}
