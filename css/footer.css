@@ -1,10 +1,10 @@
 footer {
         background-color: #0D359E;
-        width: 99%;
+        width: 98%;
         height: 40px;
         color: #ffffff;
         padding: 5px;
-        margin-top: 320px;
+        margin-top: 70px;
     
 }
 
@@ -17,10 +17,9 @@ footer h1{
 footer img{
           width: 25px;
           height: 25px;
-          display: inline-block;
-          margin-left: 40px;  
+          float: right;
+          margin: 40px;
           position: relative;
-          left: 1230px;
-          top: -25px;
-              
+          top: -63px;
+                                           
 }

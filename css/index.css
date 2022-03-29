@@ -29,7 +29,7 @@ header{
 }
 
 #header_nav{
-           width: 100%; 
+           width: 98%; 
 }
 
 ul{
@@ -83,7 +83,8 @@ ul{
 
 .slider img{
            object-fit: fill;
-           margin-left: 40px;
+           margin-left: 60px;
+           
 }
 
 
