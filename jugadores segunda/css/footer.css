@@ -4,7 +4,7 @@ footer {
        height: 40px;
        color: #ffffff;
        padding: 5px;
-       margin-top: 1600px;
+       margin-top: 70px;
 
 }
 
@@ -17,10 +17,9 @@ h2{
 footer img{
           width: 25px;
           height: 25px;
-          display: inline-block;
-          margin-left: 40px;  
+          float: right;
+          margin: 40px;
           position: relative;
-          left: 1230px;
-          top: -35px;
+          top: -74px;
         
 }
