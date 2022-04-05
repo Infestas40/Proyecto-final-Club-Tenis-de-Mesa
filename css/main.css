@@ -7,64 +7,25 @@
            text-decoration: none;
            display: flex;
            align-items: center;
-           /* padding: 20px 70px; */
-           /* margin-top: 0px; */
+           
 }
 
 .sub-headers h3 {
                 margin-left: 20px;
 }
 
-.caja{
-     background: #DFE15E; 
-     color: black;
-     text-align: center;
-     display: inline-block;
-     width: 150px;
-     height: -300px;
-     border-radius: 20px;
-     text-decoration: none;
-     padding: 10px;
-     margin-left: 100px;
-}
-
-.caja1{
-      background: #DFE15E; 
-      color: black;
-      display: inline-block;
-      text-align: center;
-      width: 200px;
-      height: -300px;
-      border-radius: 20px;
-      text-decoration: none;
-      padding: 10px;
-      margin-top: 20px;
-}
-
-.caja2{
-      background: #DFE15E; 
-      color: black;
-      display: inline-block;
-      text-align: center;
-      width: 200px;
-      height: -300px;
-      border-radius: 20px;
-      text-decoration: none;
-      padding: 10px;
-}
 
 .caja6{
       background: #DFE15E; 
       color: black;
-      display: inline-block;
       text-align: center;
       width: 400px;
       height: -100px;
       border-radius: 20px;
       text-decoration: none;
       padding: 50px;
-      margin-left: 750px;
-      margin-top: -60px;
+      margin: 10px auto;
+      
 }
 
 .actualidad{
@@ -74,7 +35,6 @@
            text-decoration: none;
            padding: 20px 70px;
            display: block;
-           margin-top: 10px;
 }
 
 .container{
