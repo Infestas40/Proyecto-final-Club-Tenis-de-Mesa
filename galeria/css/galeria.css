@@ -19,7 +19,9 @@ header{
 }
 
 #header_nav{
-           width: 100%; 
+           width: 103%;
+           margin-left: -48px; 
+           
 }
 
 ul{
