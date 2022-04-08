@@ -15,17 +15,42 @@
 }
 
 
-.caja6{
+.marcador{
       background: #DFE15E; 
       color: black;
       text-align: center;
-      width: 400px;
-      height: -100px;
+      width: 50%;
+      height: -10px;
       border-radius: 20px;
       text-decoration: none;
       padding: 50px;
-      margin: 10px auto;
-      
+      margin: 10px auto; 
+      border: 2px solid black;    
+}
+
+#contador{
+         font-size: 60px;
+         vertical-align: middle;
+         display: flex;      
+         justify-content: flex-start; 
+         color: red;       
+}
+
+#contador1{
+          font-size: 60px;  
+          vertical-align: middle;
+          display: flex;      
+          justify-content: flex-start;
+          color: red;
+}
+
+button{
+      color: red;
+      width: 5%;
+      height: 30px;
+      display: inline;
+      position: relative;
+      left: -365px;                
 }
 
 .actualidad{
@@ -62,7 +87,7 @@
 
 .container .card:hover{
                       transform: translateY(-15px);
-                      box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);;  
+                      box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .container .card img{
