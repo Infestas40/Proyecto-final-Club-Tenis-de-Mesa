@@ -28,21 +28,6 @@
       border: 2px solid black;    
 }
 
-#contador{
-         font-size: 60px;
-         vertical-align: middle;
-         display: flex;      
-         justify-content: flex-start; 
-         color: red;       
-}
-
-#contador1{
-          font-size: 60px;  
-          vertical-align: middle;
-          display: flex;      
-          justify-content: flex-start;
-          color: red;
-}
 
 button{
       color: red;
@@ -51,6 +36,12 @@ button{
       display: inline;
       position: relative;
       left: -365px;                
+}
+
+#counting{
+         font-size: 60px;
+         color: green; 
+           
 }
 
 .actualidad{
