@@ -59,11 +59,38 @@
             <h3>DESTACADOS</h3>
         </div>
 
-        <section class="circulares">           
-            <div class="marcador">
-                <button id="btn" class="btn" onclick="countingClicks()">+</button> 
-                <p id="counting"></p>   
-                <p id="warning"></p>                        
+        <section id="marcador">
+
+            <div id="formulario">
+                <div id="input-player1">
+                    <label for="player1">Player 1</label>
+                    <input type="text" name="player1" id="player1">
+                </div>
+                <div id="input-player2">
+                    <label for="player2">Player 2</label>
+                    <input type="text" name="player2" id="player2">
+                </div>
+                <button id="btn-validar">validar</button>
+            </div>
+
+            <div id="marcadores">
+                <div id="player1-name"><b>PAQUETE BAZÁN</b></div>
+                <div id="marcador-player1" class="marcador-player">
+                    <p id="counting">00</p>
+                    <button id="btn" class="btn-marcador" onclick="countingClicks()">+</button>
+                    <button id="btn" class="btn-marcador" onclick="restarClicks()">-</button>
+                    <p id="warning"></p>
+                </div>
+
+                <button id="btn-reset">Reset</button>
+    
+                <div id="marcador-player2" class="marcador-player">
+                    <p id="counting2">00</p>
+                    <button id="btn" class="btn-marcador" onclick="countingClicksmarcadorplayer2()">+</button>
+                    <button id="btn" class="btn-marcador" onclick="restarClicksmarcadorplayer2()">-</button>
+                    <p id="warning"></p>
+                </div>
+                <div id="player1-name"><b>CUERPO ESCOMBRO</b></div>
             </div>
         </section>
 
@@ -102,11 +129,13 @@
     </main>
 
     <footer>
-        <div><h1>@Copyright Gijón Tenis de Mesa</h1></div>
         <div>
-        <img src="assets/Facebook.png">  
-        <img src="assets/Instagram.png"> 
-        <img src="assets/Mapa.jpeg"> 
+            <h1>@Copyright Gijón Tenis de Mesa</h1>
+        </div>
+        <div>
+            <img src="assets/Facebook.png">
+            <img src="assets/Instagram.png">
+            <img src="assets/Mapa.jpeg">
         </div>
     </footer>
 
