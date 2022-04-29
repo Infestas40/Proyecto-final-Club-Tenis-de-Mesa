@@ -29,6 +29,13 @@ function restarClicksmarcadorplayer2(){
     }
 }
 
+function resetClicks() {
+    i = 0;
+    document.getElementById("counting").innerHTML = i;
+    document.getElementById("counting2").innerHTML = i;
+}
+    
+
 
 
 
