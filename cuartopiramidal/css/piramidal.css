@@ -106,3 +106,24 @@ ul{
                 border-radius: 10px;
     
 }
+
+.tabla-posiciones img{
+                     width: 60%;
+                     height: 400px;
+                     display: flex;
+                     margin: auto;
+               
+}
+
+tr{
+  position: relative;
+  top: -385px;
+  left: 320px;
+  color: white;    
+}
+
+td{
+  color: red;
+  display: inline-block;
+  margin: 100px;
+}
